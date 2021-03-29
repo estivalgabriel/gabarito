@@ -1,0 +1,42 @@
+/* ESTILO BASE PARA OS FORMULARIOS E SUAS VALIDACOES */
+form input, form select, form textarea	{
+    padding: 8px;
+    font-size: 13px;
+    border: 1px solid #d5d5d5;
+    color: #242424;
+    border-radius:4px;
+    -webkit-border-radius: 4px;
+    resize: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: none;
+    border: 1px solid #242424;
+    color: #242424;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(35, 35, 35, 0.6);
+    box-shadow: 0px 0px 3px 0px rgba(35, 35, 35, 0.6);
+}
+
+form input.error,
+form select.error,
+form textarea.error {
+    outline: none;
+    border: 1px solid #e10000;
+    color: #e10000;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(225, 0, 0, 0.4);
+    box-shadow: 0px 0px 5px 0px rgba(225, 0, 0, 0.4);
+}
+
+form label.error, label.error {
+    margin-top: -15px;
+    color: #e10000;
+}
+
+div.error {
+    display: none;
+}

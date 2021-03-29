@@ -1,0 +1,34 @@
+/* IMPORTO AS DEMAIS FOLHAS CSS */
+@import url('fontface.css');
+@import url('animate.css');
+@import url('procriativo_reset.css');
+@import url('procriativo_theme.css');
+
+<<<<<<< HEAD
+
+/* ESTILO GERAL -=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+body,td,th 			{font-family: 'jost_700_boldbold', Helvetica, sans-serif; font-size: 10px; color: #444444;}
+body 				    {background-color: #ffffff; margin:0;}
+
+.container {
+
+}
+
+
+
+
+/* MEDIA QUERIES -=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { }
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { }
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+>>>>>>> 0bbb26ff51f1aebe77e12dcce125e40df4983ad7

@@ -1,0 +1,65 @@
+@import url('procriativo_reset.css');
+@font-face {
+    font-family: 'fira_sansbold';
+    src: url('../fonts/fonts-404/firasans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/fonts-404/firasans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_sanslight';
+    src: url('../fonts/fonts-404/firasans-light-webfont.woff2') format('woff2'),
+         url('../fonts/fonts-404/firasans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#div-404{
+  height: 100vh;
+  width:  100%;
+  padding-top: 35vh;
+}
+#div-404 h1{
+  padding-bottom: 5px;
+  font-family: 'fira_sansbold';
+  color: #747474;
+  font-size: 42px;
+}
+#div-404 h2{
+  font-family: 'fira_sansbold';
+  font-size: 22px;
+  color: #b1b3b5;
+  padding-bottom: 30px;
+}
+#div-404 p a{
+  font-family: 'fira_sanslight';
+  font-size: 14px;
+  color: #666666;
+}
+#div-404 .error{
+  padding-left: 50px;
+}
+#div-404 .error img{
+  padding-top: 115px;
+}
+@media screen and (max-width: 1091px){
+  #div-404{
+    padding-top: 100px;
+  }
+  #div-404 img{
+    padding: 0 20px;
+  }
+  #div-404 .error{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 50px;
+  }
+  #div-404 .error img{
+    padding-top: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,17 @@
+# DESCRIÇÃO DO PROJETO
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Descrição do projeto.
+
+
+# DADOS GERAIS
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+<nome_projeto>
+<url_rojeto>
+<data_projeto>
+
+
+# RESPONSÁVEIS PELO PROJETO
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Projeto desenvolvido pela Gabriel Estival (www.gabrielestival.com.br);
+
+<name> -- <role> -- <twitter>

@@ -1,0 +1,87 @@
+/*
+- CSS baseado 960 e 1140 GridSysten
+- padroniza todos os estilos nos navegadores
+- Desenvolvido Por Procriativo Agência Multimidia
+*/
+
+
+/* Reset CSS */
+html, body	{font-size:10px;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1, h2, h3, h4, h5, h6	{font-size:1em;}
+
+* {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after linha16
+
+img 			{height: auto;}
+a img			{border:0;}
+
+/* Defino metricas para os estilos*/
+h1, h2, h3, h4		{margin:0; padding:0; font-weight: normal;}
+
+.line12				{line-height:1.2em;}
+.line14				{line-height:1.4em;}
+.line16				{line-height:1.6em;}
+.line18				{line-height:1.8em;}
+.line20				{line-height:2em;}
+.line22				{line-height:2.2em;}
+.line24				{line-height:2.4em;}
+.line26				{line-height:2.6em;}
+.line28				{line-height:2.8em;}
+
+.font9				{font-size: .9em;}
+.font10				{font-size: 1em;}
+.font11				{font-size: 1.1em;}
+.font12				{font-size: 1.2em;}
+.font13				{font-size: 1.3em;}
+.font14				{font-size: 1.4em;}
+.font15				{font-size: 1.5em;}
+.font16				{font-size: 1.6em;}
+.font17				{font-size: 1.7em;}
+.font18				{font-size: 1.8em;}
+.font20				{font-size: 2em;}
+.font22				{font-size: 2.2em;}
+.font24				{font-size: 2.4em;}
+.font26				{font-size: 2.6em}
+.font28				{font-size: 2.8em}
+.font30				{font-size: 3em;}
+.font32				{font-size: 3.2em;}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
